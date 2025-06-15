@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Grocery Sign Up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .box {
+      background-color: #a5d6a7;
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #004d40;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    input {
+      width: 90%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #000000;
+      border-radius: 4px;
+    }
+
+    .btn {
+      background-color: rgb(35, 187, 48);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: rgba(98, 224, 98, 0.764);
+    }
+
+    .link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .link a {
+      color: rgb(87, 33, 129);
+      text-decoration: none;
+    }
+
+    .link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h2>Sign Up</h2>
+    <form action="grocery_application_1.html">
+      <input type="text" placeholder="Name" required><br>
+      <input type="text" placeholder="Address" required><br>
+      <input type="email" placeholder="Email" required><br>
+      <input type="tel" placeholder="Mobile Number 1" required><br>
+      <input type="tel" placeholder="Mobile Number 2" required><br>
+      
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+    
+    <div class="link">
+      <p><a href="#">Already have an account?</a></p>
+      <p><a href="ForgetPass.html">Forgot Password?</a></p>
+    </div>
+  </div>
+
+</body>
+</html>

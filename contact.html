@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f9f9f9;
+    }
+
+    .contact-box {
+      width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: white;
+      border: 1px solid #ccc;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input[type=text], input[type=email], textarea {
+      width: 95%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      margin-top: 15px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="contact-box">
+  <h2>Contact Us</h2>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email">
+
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="How Was Our Service..."></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+</body>
+</html>
